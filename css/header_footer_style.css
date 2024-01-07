@@ -142,6 +142,20 @@ footer:hover{
 	background-color: var(--bakcground-color);
 }
 
+/* The a element in the footer */
+footer a {
+	/* Text style */
+	color: inherit; /* Set the color to inherit from the parent (footer) */
+	text-decoration: underline; /* Underline the link on hover */
+	/* Text size */
+	font-size: calc(var(--regoler-text) * 1.2);
+}
+
+/* The a element in the footer on hover */
+footer a:hover {
+	color: var(--link-hover-footer-color);
+}
+
 /* PAY ATTENTION - there is anter setting for the body - in the root style file */
 body{
 	/* Making the footer to be at the bottom of the page */
