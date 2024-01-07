@@ -174,3 +174,9 @@ h2,
 	color: var(--black-text-color);
 }
 
+/* On small screens instate of the stones pic putting a gradient of color */
+@media only screen and (max-width:550px){
+	#IndexBenText{
+		background-image: linear-gradient( var(--bakcground-color), var(--button-color));
+	}
+}

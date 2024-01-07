@@ -1,0 +1,111 @@
+/* The rules page */
+
+/* Making the page to a flexbox for ease of use */
+main {
+	/* Making it a flexbox */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* The head */
+#BuyHead {
+	/* Text */
+	font-size: var(--big-text);
+	color: var(--black-text-color);
+	text-align: center;
+	/* Adding padding */
+	padding: var(--big-text);
+	/* Width */
+	width: 90vw;
+	/* Border */
+	border-bottom: solid calc(var(--headr-li-spacing) / 4) var(--black-color);
+}
+
+/* The content area */
+#BuyCon {
+	/* Making it an inline flexbox */
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	/* Adding padding */
+	padding: var(--mid-text);
+	margin: var(--mid-text);
+}
+
+/* The text */
+#BuyTex {
+	/* Text */
+	font-size: var(--mid-text);
+	color: var(--black-text-color);
+	/* Adding padding */
+	padding: var(--mid-text);
+	margin: var(--mid-text);
+	/* Border-radius */
+	border-radius: var(--small-text);
+	/* Making it inline */
+	display: inline;
+	/* Making them flex */
+	flex: 1;
+}
+
+/* The img */
+#BuyImg {
+	/* Size */
+	width: 40vw;
+	/* Border */
+	border: solid calc(var(--headr-li-spacing) / 3) var(--black-color);
+	border-radius: var(--small-text);
+	/* Margin */
+	margin-top: var(--mid-text);
+	/* Making them flex */
+	flex: 1;
+}
+
+/* Media query for screens under 750px */
+@media (max-width: 750px) {
+	/* Change #BuyCon to a flex container */
+	#BuyCon {
+		display: flex;
+		flex-direction: column;
+		/* Padding */
+		margin: 0px;
+		padding: 0px;
+		margin-bottom: var(--mid-text);
+	}
+
+	/* Reset the flex properties for #BuyTex and #BuyImg */
+	#BuyTex, #BuyImg {
+		flex: none; /* Resetting the flex property */
+	}
+	#BuyTex{
+		padding: 0px;
+	}
+
+	/* Making the Img to be bigger */
+	#BuyImg{
+		width: 90vw;
+	}
+}
+
+/* Making the font size smaller for smaller screen */
+@media only screen and (max-width: 400px){
+	#BuyTex{
+		font-size: var(--s-mid-text);
+	}
+}
+
+/* For the mail to fit */
+.BuyInfo{
+	font-size: var(--mid-text);
+}
+
+/* To fit the email adderss */
+@media only screen and (max-width: 400px){
+
+/* How to contact itself */
+.BuyInfo{
+	font-size: var(--regoler-text);
+}

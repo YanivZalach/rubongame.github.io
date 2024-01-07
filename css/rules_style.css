@@ -83,3 +83,11 @@ main{
 		font-size: var(--s-mid-text);
 	}
 }
+
+/* Not showing the rules pdf inline on a small screen */
+@media only screen and (max-width:700px){
+	#RulesPdf{
+		/* Make it not show */
+		display: none;
+	}
+}
