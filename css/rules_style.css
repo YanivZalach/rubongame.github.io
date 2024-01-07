@@ -35,7 +35,8 @@ main{
 }
 #RulesA {
 	/* Color */
-	color: var(--text-color);
+	color: var(--bakcground-color);
+	background-color: var(--text-color);
 	/* Transition */
 	transition: background-color var(--transition-time), color var(--transition-time); /* Smooth color transition on hover */
 	/* Border */
@@ -44,8 +45,8 @@ main{
 
 #RulesA:hover{
 	/* Inverting the colors */
-	background-color: var(--text-color);
-	color: var(--bakcground-color);
+	color: var(--text-color);
+	background-color: var(--bakcground-color);
 }
 
 
