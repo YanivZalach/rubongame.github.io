@@ -46,7 +46,7 @@
 }
 
 /* So the screen will not show the video that is fit to a phone on a computer screen */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 950px){
 	#IndexVid{
 		display: none;
 	}
