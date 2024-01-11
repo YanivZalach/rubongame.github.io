@@ -45,13 +45,6 @@
 	max-height: 100%;
 }
 
-/* So the screen will not show the video that is fit to a phone on a computer screen */
-@media only screen and (min-width: 950px){
-	#IndexVid{
-		display: none;
-	}
-}
-
 /* So the video will fill the hole section */
 @media only screen and (max-height: 700px){
 	#IndexVid{
