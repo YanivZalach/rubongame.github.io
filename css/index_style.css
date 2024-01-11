@@ -25,7 +25,7 @@
 /* The opening video */
 #IndexVid{
 	/* Adding a background */
-	background-image: linear-gradient( var(--bakcground-color), var(--button-color));
+	background-image: linear-gradient( to right, var(--bakcground-color), var(--button-color));
 	/* Size */
 	height: fit-content;
 	width: 100%;
