@@ -56,6 +56,7 @@ main {
 	padding: calc(var(--small-text) / 2);
 	font-size: var(--big-text);
 	text-wrap: wrap;
+	text-align: center;
 }
 
 /* The img */
