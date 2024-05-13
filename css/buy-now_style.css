@@ -51,6 +51,13 @@ main {
 	flex: 1;
 }
 
+/* The link button */
+#IndexBuyNow {
+	padding: calc(var(--small-text) / 2);
+	font-size: var(--big-text);
+	text-wrap: wrap;
+}
+
 /* The img */
 #BuyImg {
 	/* Size */
